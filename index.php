@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title></title>
-    </head>
-    <body>
-        <?php
-        // put your code here
-        ?>
-    </body>
-</html>
+<?php
+
+    require __DIR__.'/vendor/autoload.php';
+
+    include __DIR__.'/includes/header.php';
+    include __DIR__.'/includes/listagem.php';
+    include __DIR__.'/includes/footer.php';
+?>
